@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/activity_formulario_email"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_input"
+        android:layout_margin="8dp"
+        android:hint="E-mail"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <EditText
+        android:id="@+id/activity_formulario_senha"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_input"
+        android:layout_margin="8dp"
+        android:hint="Senha"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <EditText
+        android:id="@+id/activity_formulario_senha_confirma"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_input"
+        android:layout_margin="8dp"
+        android:hint="Confirma Senha"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/action_formulario_botao_salvar"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:text="Cadastro"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

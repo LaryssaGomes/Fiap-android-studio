@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/activity_formulario_email"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_input"
+        android:layout_margin="8dp"
+        android:hint="E-mail"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"/>
+    <EditText
+        android:id="@+id/activity_formulario_senha"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_input"
+        android:layout_margin="8dp"
+        android:hint="Senha"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/action_formulario_botao_acessar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="Acessar"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FEFEFE"
+        android:text="Esqueci minha senha"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ainda não tenho cadastro"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+</LinearLayout>
